@@ -1,0 +1,83 @@
+body{
+	background-color:#000;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#093;
+	font-size:20px;
+}
+h1{
+	color:#999;
+	font-size:24px;
+	text-align:center;
+}
+
+h2{
+	color:#666;
+	font-size:32px;
+	text-align:center;
+}
+#wrapper{
+	
+	width:800px;
+	margin:0 auto;
+	height:auto;
+}
+
+#room{
+	height:400px;
+	padding: 10px 30px 10px 30px;
+	float:left;
+	border:1px solid #CCC;
+	background-color:#000;
+}
+#room1{
+	height:400px;
+	padding: 10px 30px 10px 30px;
+	float:left;
+	border:1px solid #CCC;
+	background-color:#000;
+}
+#clear{
+	clear:both;
+}
+
+.error{
+	color:#F00;
+	font-size:20px;
+	text-decoration:blink;
+}
+
+#falls{
+	float:left;
+	height:240;
+	width:330px;
+	color:#F00;
+	padding:20px 20px 20px 20px;
+}
+
+#falls img{
+	
+	height:240px;
+	width:320px;
+	float:left;
+	border:3px solid #DDD;
+}
+input.btn{
+	width:200px;
+	height:35px;
+	font-size:23px;
+	border:3px solid #CCC;
+}
+
+input.radio{
+	width:20px;
+	height:20px;
+}
+
+#buttons{
+	clear:both;
+	float:left;
+	padding:20px 20px 20px 20px;
+	margin-left:200px;
+	
+	
+}
