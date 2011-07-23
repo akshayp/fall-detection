@@ -10,30 +10,13 @@
 clc
 clear all
 disp('Loading Video..');
-% Superior Fall Examples
-avi = aviread('Superior Test Videos\test1.avi');
-
 % Fall Examples
  avi = aviread('Test Videos\Falls\Akshay Back Fall.avi');
-% avi = aviread('Test Videos\Falls\Akshay Front Fall.avi');
-% avi = aviread('Test Videos\Falls\Akshay Side Fall.avi');
-% avi = aviread('Test Videos\Falls\Nick Back Fall 1.avi');
-% avi = aviread('Test Videos\Falls\Nick Back Fall 2.avi');
-% avi = aviread('Test Videos\Falls\Nick Front Fall.avi');
-% avi = aviread('Test Videos\Falls\Nick Side Fall.avi');
-% avi = aviread('Test Videos\Falls\Puneet Back Fall.avi');
-% avi = aviread('Test Videos\Falls\Puneet Front Fall.avi');
-% avi = aviread('Test Videos\Falls\Puneet Side Fall.avi');
-%End of Fall Examples
+% End of Fall Examples
 
-%Non Fall Examples
+% Non Fall Examples
 % avi = aviread('Test Videos\Non-Falls\Akshay Bending Down, Sitting Down.avi');
-%avi = aviread('Test Videos\Non-Falls\Akshay Getting Up, Sitting Down.avi');
-% avi = aviread('Test Videos\Non-Falls\Akshay Sitting, Laying Down.avi');
-%avi = aviread('Test Videos\Non-Falls\Nick Bending Down, Sitting Down.avi');
-%avi = aviread('Test Videos\Non-Falls\Nick Getting Up, Sitting Down.avi');
-%avi = aviread('Test Videos\Non-Falls\Nick Sitting, Laying Down.avi');
-%End of Non Fall Examples
+% End of Non Fall Examples
 
 frames = {avi.cdata};
 disp('Extracting Foreground..');
